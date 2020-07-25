@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73195b8f.chunk.css",
+    "main.js": "/static/js/main.7f455c55.chunk.js",
+    "main.js.map": "/static/js/main.7f455c55.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d9d9a5b0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d9d9a5b0.js.map",
+    "static/js/2.614923d2.chunk.js": "/static/js/2.614923d2.chunk.js",
+    "static/js/2.614923d2.chunk.js.map": "/static/js/2.614923d2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6ab89c377b578146f7545e8577c891fb.js": "/precache-manifest.6ab89c377b578146f7545e8577c891fb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.73195b8f.chunk.css.map": "/static/css/main.73195b8f.chunk.css.map",
+    "static/js/2.614923d2.chunk.js.LICENSE.txt": "/static/js/2.614923d2.chunk.js.LICENSE.txt",
+    "static/media/code.jpg": "/static/media/code.0375009b.jpg",
+    "static/media/cv.pdf": "/static/media/cv.859120e5.pdf",
+    "static/media/educast.png": "/static/media/educast.216c8ded.png",
+    "static/media/funny_calculus.png": "/static/media/funny_calculus.f45e79f3.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/space_management.png": "/static/media/space_management.f5f1d4d2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9d9a5b0.js",
+    "static/js/2.614923d2.chunk.js",
+    "static/css/main.73195b8f.chunk.css",
+    "static/js/main.7f455c55.chunk.js"
+  ]
+}
