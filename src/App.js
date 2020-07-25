@@ -111,11 +111,12 @@ function App() {
           </p>
           <p className={styles.aboutMeText}>
             I'm about to graduate in Computer Science (UTFPR-Brazil) and get a
-            Master degree in Information Systems (IPB-Portugal).
+            Master's degree in Information Systems (IPB-Portugal).
           </p>
           <p className={styles.aboutMeText}>
-            Nowadays I am engaged in web development but I also have interest in
-            artificial intelligence, image processing and data visualization.
+            Nowadays I am engaged in web development but I also have an interest
+            in artificial intelligence, image processing, and data
+            visualization.
           </p>
         </div>
         <p className={styles.aboutMeTextItalic}>
@@ -148,9 +149,9 @@ function App() {
       <div className={styles.projects}>
         <p className={styles.sectionTitle}>Projects</p>
         <p className={styles.projectTitle}>
-          These are some of my projects that I think makes people’s lives
-          better, there are plenty of other projects in my github but most of
-          them are for learning purposes and there are more coming soon!
+          These are some of my projects that I think make people’s lives better,
+          there are plenty of other projects in my Github but most of them are
+          for learning purposes and there are more coming soon!
         </p>
         <div className={styles.projectCardWrapper}>{buildCards(projects)}</div>
       </div>
