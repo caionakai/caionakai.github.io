@@ -7,7 +7,7 @@ import cx from "classnames";
 
 const projects = [
   {
-    title: "Video Editor For Educast Company",
+    title: "Video Editor For Educast",
     img: "./assets/educast.png",
     tools: ["React", "Redux", "Sass", "CSS3", "JavaScript", "Github"],
     description:
