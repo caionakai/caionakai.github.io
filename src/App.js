@@ -11,7 +11,7 @@ const projects = [
     img: "./assets/educast.png",
     tools: ["React", "Redux", "Sass", "CSS3", "JavaScript", "Github"],
     description:
-      "The objective of this project was to develop an web interface for editing videos using React, the difficulty of the project was to develop components from scratch since there were no reusable components already developed to build a complex interface for a video editor. It was a challenging and very interesting project because most of the components were not common as buttons, forms and texts, this greatly increased the complexity and the need to think about innovative solutions.",
+      "The objective of this project was to develop a web interface for editing videos using React, the difficulty of the project was to develop components from scratch since there were no reusable components already developed to build a complex interface for a video editor. It was a challenging and very interesting project because most of the components were not common as buttons, forms, and texts, this greatly increased the complexity and the need to think about innovative solutions.",
   },
   {
     title: "Space Management System for IPB",
@@ -36,7 +36,7 @@ const projects = [
     img: "./assets/funny_calculus.png",
     tools: ["VueJs", "CSS3", "GeogebraScript", "JavaScript", "Github"],
     description:
-      "This was a website project to help teaching calculus through graphical representations and animations of mathematical concepts in order to make learning more dynamic. This project was developed using VueJs and geogebrascript to make the animations.",
+      "This was a website project to help to teach calculus through graphical representations and animations of mathematical concepts in order to make learning more dynamic. This project was developed using VueJs and geogebrascript to make the animations.",
   },
 ];
 
