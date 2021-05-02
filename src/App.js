@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import styles from "./App.module.scss";
 import Cv from "../src/assets/cv.pdf";
@@ -106,12 +105,13 @@ function App() {
         <p className={styles.sectionTitle}>About Me</p>
         <div className={styles.aboutMeTextWrapper}>
           <p className={styles.aboutMeText}>
-            Hey there, my name is Caio, I’m from Brazil currently living in
-            Portugal.
+            Hey there, my name is Caio, i’m from Brazil currently living in
+            Portugal working at the National Foundation for Scientific Computing (FCCN - FCT)
+            as a Fullstack Developer.
           </p>
           <p className={styles.aboutMeText}>
-            I'm about to graduate in Computer Science (UTFPR-Brazil) and get a
-            Master's degree in Information Systems (IPB-Portugal).
+            I have a bachelor's degree in Computer Science (UTFPR - Brazil) and a 
+            Master's degree in Informations Systems (IPB - Portugal)
           </p>
           <p className={styles.aboutMeText}>
             Nowadays I am engaged in web development but I also have an interest
