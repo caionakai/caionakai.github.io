@@ -1,0 +1,63 @@
+$color-hexagon: linear-gradient(to bottom right, #000000 0%, #1f1f1e 100%);
+
+.listWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: center;
+
+  @media (max-width: 975px) {
+    width: 80%;
+  }
+}
+
+@mixin margin-auto {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.hexagon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: $color-hexagon;
+  margin: 1.5em 2em;
+  width: 4em;
+  height: 6.2em;
+  border-radius: 10px;
+  top: 0;
+  transition: all 0.2s ease;
+  &:before,
+  &:after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: "";
+    @include margin-auto;
+  }
+  &:before {
+    transform: rotate(60deg);
+  }
+  &:after {
+    transform: rotate(-60deg);
+  }
+  &:hover {
+    top: -4px;
+
+    .icon {
+      transform: scale(1.5);
+    }
+    
+  }
+  
+}
+
+.icon {
+  z-index: 1;
+}

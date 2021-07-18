@@ -3,6 +3,7 @@ import "./App.css";
 import styles from "./App.module.scss";
 import Cv from "../src/assets/cv.pdf";
 import cx from "classnames";
+import TechnologiesList from "./components/technologies-list/technologies-list"
 
 const projects = [
   {
@@ -131,19 +132,8 @@ function App() {
           Here’s a list of technologies I am more used to, but other
           technologies/programming languages is not a barrier to me!
         </p>
-
-        <ul className={styles.technicalSkillsList}>
-          <li> - JavaScript</li>
-          <li>- Python</li>
-          <li>- React </li>
-          <li>- CSS3</li>
-          <li>- SASS</li>
-          <li>- HTML5</li>
-          <li>- NodeJs</li>
-          <li>- Git</li>
-          <li>- Github</li>
-          <li>- MongoDB</li>
-        </ul>
+        <TechnologiesList />
+        
       </div>
 
       <div className={styles.projects}>
@@ -177,7 +167,6 @@ function App() {
             title="Copied to clipboard!"
             onClick={() => {
               navigator.clipboard.writeText("caionakai2015@gmail.com");
-              // document.execCommand('copy')
               setIsEmailClicked(true);
             }}
             ref={emailRef}
