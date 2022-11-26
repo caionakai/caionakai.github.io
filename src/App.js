@@ -130,7 +130,7 @@ function App() {
         <p className={styles.sectionTitle}>Technical Skills</p>
         <p className={styles.technicalSkillsText}>
           Here’s a list of technologies I am more used to, but other
-          technologies/programming languages is not a barrier to me!
+          technologies/programming languages are not a barrier to me!
         </p>
         <TechnologiesList />
         
@@ -176,9 +176,9 @@ function App() {
         </div>
 
         <div className={styles.textBtnWrapper}>
-          <p className={styles.contactText}>Feel free to download my Resume</p>
-          <a href={Cv} download="cv_caionakai.pdf">
-            <button className={styles.button}>Download Resume</button>
+          <p className={styles.contactText}>Feel free to view my resume</p>
+          <a href={Cv} target="_blank">
+            <button className={styles.button}>View Resume</button>
           </a>
         </div>
       </div>

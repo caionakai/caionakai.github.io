@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./technologies-list.module.scss";
-import { FaGithub, FaPython, FaReact, FaCss3Alt, FaSass, FaHtml5, FaNodeJs, FaGitAlt, FaDocker } from "react-icons/fa";
-import { SiMongodb, SiRails } from "react-icons/si";
+import { FaLinux, FaGithub, FaReact, FaCss3Alt, FaSass, FaHtml5, FaNodeJs, FaGitAlt, FaDocker } from "react-icons/fa";
+import { SiElectron, SiRails, SiMysql, SiAnsible } from "react-icons/si";
 import { DiJavascript1, DiRuby } from "react-icons/di";
 
 const ICON_SIZE = "2rem";
@@ -19,7 +19,7 @@ const TechnologiesList = () => {
         </div>
         
         <div className={styles.hexagon}>
-          <FaPython size={ICON_SIZE} color={ICON_COLOR} className={styles.icon} title="Python Programming Language"/>
+          <SiMysql size={ICON_SIZE} color={ICON_COLOR} className={styles.icon} title="MySQL Database"/>
         </div>
 
         <div className={styles.hexagon}>
@@ -59,9 +59,16 @@ const TechnologiesList = () => {
         </div>
 
         <div className={styles.hexagon}>
-          <SiMongodb size={ICON_SIZE} color={ICON_COLOR} className={styles.icon} title="MongoDB"/>
+          <SiAnsible size={ICON_SIZE} color={ICON_COLOR} className={styles.icon} title="Ansible"/>
         </div>
 
+        <div className={styles.hexagon}>
+          <FaLinux size={ICON_SIZE} color={ICON_COLOR} className={styles.icon} title="Linux"/>
+        </div>
+
+        <div className={styles.hexagon}>
+          <SiElectron size={ICON_SIZE} color={ICON_COLOR} className={styles.icon} title="Electron"/>
+        </div>
       </div>
     );
 };
